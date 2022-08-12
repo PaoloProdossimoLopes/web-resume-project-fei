@@ -9,7 +9,7 @@ This repo contains all code started and improved to the Web development classes 
 1. Open your terminal in location that you want save the project.
 2. Clone the repo in this local.
 ```sh
-git clone https://github.com/PaoloProdossimoLopes/web-resume-project-fe.git
+git clone https://github.com/PaoloProdossimoLopes/web-resume-project-fei.git
 ```
 3. Open the project on your favorite IDE inside the folder project.
    
