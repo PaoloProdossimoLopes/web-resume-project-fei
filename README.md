@@ -1,28 +1,21 @@
-#  TITLE
+# 🌐 Resume to FEI class
 DESCRIPTION ...
-
-## 🧰 Example:
-```swift
-```
 
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
-- Swift 4+
-- Xcode 10+
+- Any IDE that you can run and modify HTML, CSS and Javascript files
 
 ### INSTALATION
 1. Open your terminal in location that you want save the project.
 2. Clone the repo in this local.
 ```sh
-git clone https://github.com/PaoloProdossimoLopes/repository-template.git
+git clone https://github.com/PaoloProdossimoLopes/web-resume-project-fe.git
 ```
-3. Open the file with extension .xcodeproj inside the folder project.
+3. Open the project on your favorite IDE inside the folder project.
    
 ### RUN
 So that you can run the project follow this steps:
-1. Choose a simulator 
-2. Then click on the **COMMAND + R** keys or press the ▶︎ (icon at the top of the IDE).
-
+1. Choose a browser
 
 ## 📃 License:
 The MIT license was used in this project.
