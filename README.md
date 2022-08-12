@@ -1,5 +1,5 @@
 # 🌐 Resume to FEI class
-DESCRIPTION ...
+This repo contains all code started and improved to the Web development classes where I need to make a resume
 
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
