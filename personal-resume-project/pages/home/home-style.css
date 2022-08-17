@@ -1,0 +1,338 @@
+/*GLOBAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg");
+}
+
+#first-page {
+    height: 90vh;
+    margin: 50px 0px
+}
+
+/*CONTAINER*/
+#container {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+/*NAVIGATION*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #d23465;
+    font-size: 13pt;
+    transition: 0.3s;
+}
+
+#presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+#presentation span {
+    color: #d23465;
+}
+
+#profile-name-with-office-position {
+    margin-left: 30px;
+}
+
+#profile-name-with-office-position h2 {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+#about-section {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#about-section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+#apple-icon {
+    font-size: 50pt;
+    min-width: 150px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#about-text h2 {
+    font-size: 32pt;
+}
+
+.skills {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    color: white;
+    font-size: 38pt;
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.experience-configuration H2 {
+    color: #d23465;
+}
+
+.experience-configuration {
+    color: white;
+    min-height: 250px;
+}
+
+.experience-configuration span {
+    color:  #d23465;
+    font-size: 18pt;
+}
+
+.skill-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-card h5 {
+    text-align: center;
+    font-size: 20pt;
+    padding-bottom: 25px;
+}
+
+.skill-card {
+    color: white;
+    padding: 50px 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 900px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.skill-box i {
+    color: #d23465;
+    margin-right: 20px;
+    font-size: 20pt;
+    float: top;
+    padding-top: 10px;
+}
+
+.skill-box h5 {
+    color: #d23465;
+    margin: 10px 0px;
+    font-size: 18pt;
+    min-width: 300px;
+}
+
+.skill-card-horizontal {
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 20px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.skill-card-horizontal:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.skill-card-horizontal .clear {
+    width: 50%;
+}
+
+.skill-card-horizontal iframe {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+/*Academic*/
+.rounded-container, .rounded-container-centralized {
+    height: auto;
+    width: 100%;
+
+    padding: 25px 30px;
+    margin: 0px 25px;
+    border-radius: 10px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fei-map {
+    border-radius: 10px;
+}
+
+.font-icon, .font-icon-floated {
+    color: #d23465;
+    font-size: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+.font-icon-floated {
+    display: flex;
+    justify-content: start;
+}
+
+.article-image {
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.article-title {
+    text-decoration: none;
+}
+
+.rounded-container a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#articles-section .rounded-container p {
+    margin: 0px 10px;
+}
+
+.rounded-container td:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.article-image:hover {
+    border: 2px solid #d23465;
+    transition: 0.3s;
+}
+
+.image-container {
+    padding: 0px 25px;
+}
+
+.rounded-container-title {
+    color: white;
+}
+
+.rounded-container-title h2 {
+    color: #d23465;
+}
+
+#academic-step-check {
+    color: white;
+    margin: 15px 0px
+}
+
+#academic-step-check i {
+    font-size: 20pt;
+}
+/*End -> Academic*/
+
+/*Start -> Footer*/
+
+footer {
+    height: 250px;
+    width: auto;
+    margin-top: 50px;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+}
+
+.horizontal-stack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#social-media-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rounded-button {
+    text-decoration: none;
+    font-size: 18pt;
+    padding: 20px 25px;
+    margin: 10px;
+    border-radius: 10%;
+    border: 2px solid #d23465;
+}
+
+.rounded-button:hover {
+    background-color: #d23465;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.rounded-button i {
+    color: white;
+}
+
+#right-section {
+    height: 80px;
+    color: #b9b9b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*End -> Footer*/
