@@ -206,11 +206,17 @@ nav {
 }
 
 .experience-configuration {
-    min-height: 250px;
+    min-height: 100px;
 }
 
 .experience-configuration span {
     font-size: 18pt;
+}
+
+/* #️⃣Academic Configuration -------------------------------------------------------------------------------------------- */
+#academic-section td i {
+    font-size: 18pt;
+    margin: 5px 0;
 }
 
 /* #️⃣Rounded Container Configuration ----------------------------------------------------------------------------------- */
@@ -223,6 +229,13 @@ nav {
     border-radius: 10px;
 
     background-color: var(--dark_background_transparency);
+}
+
+/* #️⃣Article Configuration --------------------------------------------------------------------------------------------- */
+#articles-section a {
+    color: var(--primary_text_color);
+    text-decoration: none;
+    text-align: center;
 }
 
 /* #️⃣Rounded Button Configuration -------------------------------------------------------------------------------------- */
@@ -242,13 +255,6 @@ nav {
 
 .rounded-button i {
     color: var(--primary_text_color);
-}
-
-/* #️⃣Article Configuration --------------------------------------------------------------------------------------------- */
-#articles-section a {
-    color: var(--primary_text_color);
-    text-decoration: none;
-    text-align: center;
 }
 
 /* #️⃣Footer Button Configuration --------------------------------------------------------------------------------------- */
