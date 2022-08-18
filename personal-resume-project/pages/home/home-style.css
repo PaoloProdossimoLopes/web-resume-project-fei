@@ -116,6 +116,11 @@ body {
     justify-content: center;
 }
 
+/* #️⃣Rotated ----------------------------------------------------------------------------------------------------------- */
+.rotated {
+    transform: rotateZ(20deg);
+}
+
 /* #️⃣Display on center with space Configuration ------------------------------------------------------------------------ */
 .display_on_center_with_space {
     display: flex;
