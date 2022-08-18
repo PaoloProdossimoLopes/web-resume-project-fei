@@ -1,4 +1,17 @@
-/*GLOBAL*/
+/* #️⃣Global Variables -------------------------------------------------------------------------------------------------- */
+:root {
+    --primary_text_color: #ffffff;
+    --secondary_text_color: #d23465;
+
+    --primary_background_color: #d23465;
+    --secondary_background_color: #ffffff;
+    --dark_background_transparency: rgba(0, 0, 0, 0.3);
+    --background-color-absolute: #130a31;
+
+    --transition-duration: 0.3s
+}
+
+/* #️⃣All Configuration ------------------------------------------------------------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +19,9 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-.clear{
-    clear: both;
-}
-
+/* #️⃣Body Configuration ------------------------------------------------------------------------------------------------ */
 body {
+    color: var(--primary_text_color);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,55 +29,143 @@ body {
     background-image: url("https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg");
 }
 
-#first-page {
-    height: 90vh;
-    margin: 50px 0px
+/* #️⃣Title section Configuration --------------------------------------------------------------------------------------- */
+.section-title {
+    font-size: 30pt;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-/*CONTAINER*/
-#container {
-    height: 100vh;
-    width: 80%;
-    margin: auto;
+/* #️⃣Clear Configuration ----------------------------------------------------------------------------------------------- */
+.clear{
+    clear: both;
 }
 
-/*NAVIGATION*/
-nav {
+/* #️⃣Subtitle Configuration -------------------------------------------------------------------------------------------- */
+.subtitle {
+    color: var(--secondary_text_color);
+    font-size: 18pt;
+    margin-bottom: 5px;
+}
+
+/* #️⃣Top margin Configuration ------------------------------------------------------------------------------------------ */
+.top-spacing {
+    margin-top: 50px;
+}
+
+/* #️⃣Fill Configuration ------------------------------------------------------------------------------------------------ */
+.fill {
+    width: 100%;
+}
+
+/* #️⃣Rounded Configuration --------------------------------------------------------------------------------------------- */
+.rounded {
+    border-radius: 10px;
+}
+
+/* #️⃣Bordered Configuration -------------------------------------------------------------------------------------------- */
+.bordered {
+    border: 2px solid var(--primary_background_color);
+}
+
+/* #️⃣Video Configuration ----------------------------------------------------------------------------------------------- */
+.video {
+
+}
+
+/* #️⃣Expanded Configuration -------------------------------------------------------------------------------------------- */
+.hover-expanded:hover {
+    transform: scale(1.05);
+    transition: var(--transition-duration);
+}
+
+/* #️⃣Focused Configuration --------------------------------------------------------------------------------------------- */
+.hover-focused:hover {
+    color: var(--secondary_text_color);
+    transition: var(--transition-duration);
+}
+
+/* #️⃣Focused Configuration --------------------------------------------------------------------------------------------- */
+.hover-font-grow:hover {
+    font-size: 25pt;
+    transition: var(--transition-duration);
+}
+
+/* #️⃣Medium icon Configuration ----------------------------------------------------------------------------------------- */
+.medium-icon-size {
+    font-size: 20pt;
+}
+
+/* #️⃣Small Configuration ----------------------------------------------------------------------------------------------- */
+.small-image {
+    height: 180px;
+    width: 300px;
+}
+
+/* #️⃣Horizontal spaced Configuration ----------------------------------------------------------------------------------- */
+.horizontal-spaced {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* #️⃣Display on center Configuration ----------------------------------------------------------------------------------- */
+.display_on_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #️⃣Display on center with space Configuration ------------------------------------------------------------------------ */
+.display_on_center_with_space {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* #️⃣Container Configuration ------------------------------------------------------------------------------------------- */
+#container {
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+}
+
+/* #️⃣Header Configuration ---------------------------------------------------------------------------------------------- */
+nav {
     padding-top: 20px;
 }
 
-nav ul li {
+#header li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 
-nav ul li a {
-    color: white;
+#header a {
+    color: var(--primary_text_color);
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-nav ul li a:hover {
-    color: #d23465;
+#header a:hover {
+    color: var(--secondary_text_color);
     font-size: 13pt;
     transition: 0.3s;
 }
 
+/* #️⃣Page Configuration ------------------------------------------------------------------------------------------------ */
+.page {
+    height: 90vh;
+}
+
+/* #️⃣Presentation Configuration ---------------------------------------------------------------------------------------- */
 #presentation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 50px;
-    color: white;
 }
 
 #presentation span {
-    color: #d23465;
+    color: var(--secondary_text_color);
 }
 
 #profile-name-with-office-position {
@@ -74,266 +173,91 @@ nav ul li a:hover {
 }
 
 #profile-name-with-office-position h2 {
-    margin: 10px 0px;
-    font-weight: bold;
+    margin: 5px 0;
     font-size: 30pt;
 }
 
-#about-section {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+#profile-name-with-office-position h4 {
+    font-size: 18pt;
 }
 
+/* #️⃣About Configuration ----------------------------------------------------------------------------------------------- */
 #about-section {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding-top: 50px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    border-radius: 10px;
+    margin-top: 50px;
 }
 
 #apple-icon {
     font-size: 50pt;
     min-width: 150px;
-    color: rgba(255, 255, 255, 0.9);
 }
 
 #about-text h2 {
     font-size: 32pt;
 }
 
-.skills {
-    margin-bottom: 50px;
+/* #️⃣Down Arrows Configuration ----------------------------------------------------------------------------------------- */
+#down-arrows-indicator {
+    color: var(--secondary_text_color);
 }
 
-.section-title {
-    color: white;
-    font-size: 38pt;
-    margin: 30px auto;
-    text-align: center;
-    width: 100%;
-}
-
-.experience-configuration H2 {
-    color: #d23465;
+/* #️⃣Experience Configuration ------------------------------------------------------------------------------------------ */
+.experience-configuration H2, span {
+    color: var(--secondary_text_color);
 }
 
 .experience-configuration {
-    color: white;
     min-height: 250px;
 }
 
 .experience-configuration span {
-    color:  #d23465;
     font-size: 18pt;
 }
 
-.skill-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.skill-card h5 {
-    text-align: center;
-    font-size: 20pt;
-    padding-bottom: 25px;
-}
-
-.skill-card {
-    color: white;
-    padding: 50px 100px;
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 900px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    padding-bottom: 25px;
+/* #️⃣Rounded Container Configuration ----------------------------------------------------------------------------------- */
+.rounded-container {
     height: auto;
-}
-
-
-
-.skill-box i {
-    color: #d23465;
-    margin-right: 20px;
-    font-size: 20pt;
-    float: top;
-    padding-top: 10px;
-}
-
-.skill-box h5 {
-    color: #d23465;
-    margin: 10px 0px;
-    font-size: 18pt;
-    min-width: 300px;
-}
-
-.skill-card-horizontal {
-    color: white;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    margin: 20px;
-    padding: 25px 30px;
-    border-radius: 10px;
-    padding-bottom: 25px;
-}
-
-.skill-card-horizontal:hover {
-    transform: scale(1.02);
-    transition: 0.3s;
-}
-
-.skill-card-horizontal .clear {
-    width: 50%;
-}
-
-.skill-card-horizontal iframe {
-    padding: 10px;
-    border-radius: 20px;
-}
-
-
-
-/*Academic*/
-.rounded-container, .rounded-container-centralized {
-    height: auto;
-    width: 100%;
-
-    padding: 25px 30px;
-    margin: 0px 25px;
-    border-radius: 10px;
-
-    background-color: rgba(0, 0, 0, 0.3);
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#fei-map {
-    border-radius: 10px;
-}
-
-.font-icon, .font-icon-floated {
-    color: #d23465;
-    font-size: 50px;
-    margin-right: 25px;
-    margin-left: 25px;
-
-}
-
-.font-icon-floated {
-    display: flex;
-    justify-content: start;
-}
-
-.article-image {
-    height: 180px;
-    width: 300px;
-    border-radius: 10px;
-}
-
-.article-title {
-    text-decoration: none;
-}
-
-.rounded-container a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.87);
-}
-
-#articles-section .rounded-container p {
-    margin: 0px 10px;
-}
-
-.rounded-container td:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
-}
-
-.article-image:hover {
-    border: 2px solid #d23465;
-    transition: 0.3s;
-}
-
-.image-container {
-    padding: 0px 25px;
-}
-
-.rounded-container-title {
-    color: white;
-}
-
-.rounded-container-title h2 {
-    color: #d23465;
-}
-
-#academic-step-check {
-    color: white;
-    margin: 15px 0px
-}
-
-#academic-step-check i {
-    font-size: 20pt;
-}
-/*End -> Academic*/
-
-/*Start -> Footer*/
-
-footer {
-    height: 250px;
     width: auto;
-    margin-top: 50px;
+
+    padding: 25px 30px;
+    margin: 0 25px;
+    border-radius: 10px;
+
+    background-color: var(--dark_background_transparency);
 }
 
-footer h1 {
-    text-align: center;
-    color: white;
-}
-
-.horizontal-stack {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#social-media-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
+/* #️⃣Rounded Button Configuration -------------------------------------------------------------------------------------- */
 .rounded-button {
     text-decoration: none;
     font-size: 18pt;
     padding: 20px 25px;
     margin: 10px;
     border-radius: 10%;
-    border: 2px solid #d23465;
 }
 
 .rounded-button:hover {
-    background-color: #d23465;
+    background-color: var(--primary_background_color);
     transform: scale(1.1);
-    transition: 0.3s;
+    transition: var(--transition-duration);
 }
 
 .rounded-button i {
-    color: white;
+    color: var(--primary_text_color);
+}
+
+/* #️⃣Article Configuration --------------------------------------------------------------------------------------------- */
+#articles-section a {
+    color: var(--primary_text_color);
+    text-decoration: none;
+    text-align: center;
+}
+
+/* #️⃣Footer Button Configuration --------------------------------------------------------------------------------------- */
+footer {
+    height: 250px;
+    width: auto;
+    margin-top: 50px;
 }
 
 #right-section {
     height: 80px;
-    color: #b9b9b9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-/*End -> Footer*/
