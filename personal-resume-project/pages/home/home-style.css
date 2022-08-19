@@ -277,3 +277,12 @@ footer {
 #right-section {
     height: 80px;
 }
+
+#about-section a {
+    color: white;
+    text-decoration: none;
+}
+
+#about-section span {
+    font-size: 20pt;
+}
