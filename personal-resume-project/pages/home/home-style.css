@@ -29,6 +29,11 @@ body {
     background-image: url("https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg");
 }
 
+/* #️⃣Link visited Configuration ------------------------------------------------------------------------------------------------ */
+a:visited {
+    color: white;
+}
+
 /* #️⃣Title section Configuration --------------------------------------------------------------------------------------- */
 .section-title {
     font-size: 30pt;
