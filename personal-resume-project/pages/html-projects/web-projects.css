@@ -37,6 +37,12 @@ body {
     margin: auto;
 }
 
+/* #️⃣Expanded Configuration -------------------------------------------------------------------------------------------- */
+.hover-expanded:hover {
+    transform: scale(1.05);
+    transition: var(--transition-duration);
+}
+
 /* #️⃣Clear Configuration ----------------------------------------------------------------------------------------------- */
 .clear{
     clear: both;
@@ -74,7 +80,7 @@ body {
     justify-content: center;
 }
 
-/* #️⃣LI Configuration ----------------------------------------------------------------------------------------------- */
+/* #️⃣LI Configuration -------------------------------------------------------------------------------------------------- */
 li {
     list-style-type: none;
     padding: 10px 25px;
