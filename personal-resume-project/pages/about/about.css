@@ -1,0 +1,149 @@
+/* #️⃣Global Variables -------------------------------------------------------------------------------------------------- */
+:root {
+    --primary_text_color: #ffffff;
+    --secondary_text_color: #d23465;
+
+    --primary_background_color: #d23465;
+    --secondary_background_color: #ffffff;
+    --dark_background_transparency: rgba(0, 0, 0, 0.3);
+    --background-color-absolute: #130a31;
+
+    --transition-duration: 0.3s
+}
+
+/* #️⃣All Configuration ------------------------------------------------------------------------------------------------- */
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* #️⃣Body Configuration ------------------------------------------------------------------------------------------------ */
+body {
+    color: var(--primary_text_color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg");
+}
+
+/* #️⃣Container Configuration ------------------------------------------------------------------------------------------- */
+#container {
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+}
+
+/* #️⃣Expanded Configuration -------------------------------------------------------------------------------------------- */
+.hover-expanded:hover {
+    transform: scale(1.05);
+    transition: var(--transition-duration);
+}
+
+/* #️⃣Clear Configuration ----------------------------------------------------------------------------------------------- */
+.clear{
+    clear: both;
+}
+
+/* #️⃣Rounded Container Configuration ----------------------------------------------------------------------------------- */
+.rounded-container {
+    height: auto;
+    width: auto;
+
+    padding: 25px 30px;
+    margin: 0 25px;
+    border-radius: 10px;
+
+    background-color: var(--dark_background_transparency);
+}
+
+/* #️⃣Title section Configuration --------------------------------------------------------------------------------------- */
+.section-title {
+    font-size: 30pt;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* #️⃣vertical-spaced Configuration ------------------------------------------------------------------------------------- */
+.vertical-spaced {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* #️⃣Display on center Configuration ----------------------------------------------------------------------------------- */
+.display_on_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #️⃣LI Configuration -------------------------------------------------------------------------------------------------- */
+li {
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+#navigator {
+    margin-top: 20px;
+}
+
+#introduction h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* #️⃣Rounded Button Configuration -------------------------------------------------------------------------------------- */
+.rounded-button {
+    text-decoration: none;
+    font-size: 18pt;
+    padding: 20px 25px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.rounded-button:hover {
+    background-color: var(--primary_background_color);
+    transform: scale(1.1);
+    transition: var(--transition-duration);
+}
+
+.rounded-button i {
+    color: var(--primary_text_color);
+}
+
+/* #️⃣Subtitle Configuration -------------------------------------------------------------------------------------------- */
+.subtitle {
+    color: var(--secondary_text_color);
+    font-size: 18pt;
+    margin-bottom: 5px;
+}
+
+/* #️⃣Bordered Configuration -------------------------------------------------------------------------------------------- */
+.bordered {
+    border: 2px solid var(--primary_background_color);
+}
+
+/* #️⃣Footer Button Configuration --------------------------------------------------------------------------------------- */
+footer {
+    height: 250px;
+    width: auto;
+    margin-top: 50px;
+}
+
+#right-section {
+    height: 80px;
+}
+
+.project-title a {
+    text-decoration: none;
+    color: var(--secondary_text_color);
+    font-weight: bold;
+}
+
+i {
+    color: var(--secondary_text_color);
+}
+
