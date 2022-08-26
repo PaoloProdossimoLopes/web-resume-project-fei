@@ -1,0 +1,106 @@
+.distribute {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+* {
+    font-family: "Comic Sans MS", serif;
+}
+
+.image-size {
+    height: 100px;
+}
+
+.footer-and-header-color {
+    background-color: #F8D19FFF;
+
+}
+
+.book {
+    height: 200px;
+}
+
+.footer {
+    height: 180px;
+}
+
+.display_on_center_with_space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+#header {
+    background-color: #6396d0;
+}
+
+p {
+    text-align: center;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.present-distributed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spaced {
+    margin: 0 20px
+}
+
+.sqared {
+    width: 300px;
+    height: 300px;
+}
+
+.tinted-header {
+    color: red;
+}
+
+.dashed {
+    border: 2px dashed red;
+}
+
+.solid {
+    border: 1px solid red;
+}
+
+.solid-header {
+    border: 1px solid black;
+}
+
+table {
+    width: 350px;
+    margin: auto;
+}
+
+#sites {
+    background-color: yellow;
+    width: 400px;
+    margin: auto;
+}
+
+#sites p {
+    text-align: left;
+}
+
+#sites span {
+    color: brown;
+    margin-left: 20px;
+}
