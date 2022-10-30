@@ -1,0 +1,13 @@
+canvas {
+    position: absolute;
+}
+
+
+#area {
+    color: gray;
+    border: 5px black solid;
+}
+
+#ponteiro {
+    background-color: red;
+}
