@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Criar Post</title>
+</head>
+<body>
+
+    <div class="container">
+        <form method="post" action="/post-criado">
+            <h1>Cadastro</h1>
+
+            <p>
+                <label for="artTitle">Titulo</label>
+                <input id="artTitle" name="artTitle" required="required" type="text" placeholder="Some text here ..." />
+            </p>
+
+            <p>
+                <label for="resumo">Resumo</label>
+                <input id="resumo" name="resumo" required="required" type="text" placeholder="Some text here ..."/>
+            </p>
+
+            <p>
+                <label for="conteudo">Conteudo</label>
+                <input id="conteudo" name="conteudo" required="required" type="text" placeholder="Some text here ..."/>
+            </p>
+
+            <p>
+                <input type="submit" value="Criar" />
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>

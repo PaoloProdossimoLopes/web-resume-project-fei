@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../public/post-criado.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Posts:</h1>
+    <% for(var i=0; i < objects.length; i++) { %>
+    <div class="box">
+        <h2><%= objects[i].titulo %></h2>
+        <p><%= objects[i].resumo %></p>
+        <p><%= objects[i].conteudo %></p>
+    </div>
+    <% } %>
+</div>
+
+</body>
+</html>
